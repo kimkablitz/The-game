@@ -1,0 +1,17 @@
+
+html, body {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+button{
+    background-color: azure;
+}
+h1{
+    background-color: aliceblue;
+    color:black;
+}
+.container{
+    margin-top: 15%;
+}
