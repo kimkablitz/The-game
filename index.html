@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>RPS Game</title>
+    <title>Rock-Paper-Scissor Game</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,16 +11,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+    <!-- firebase auth -->
+    <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+    <script src="/__/firebase/5.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script>
 
 </head>
 
 <body>
+    <h1>This is a test number two</h1>
     <header>
-           
-    </header> 
-    <h1>RPS Game</h1>
-    
+
+    </header>
+    <h1>Rock-Paper-Scissor Game</h1>
+
     <div class="container">
         <div class="row character-row">
             <div class="card col-md-4">
@@ -28,12 +33,11 @@
                 <img class="card-img-top" src="assets/images/firstplayer.jpg" alt="first player" height="160" width="120">
                 <div class="card-body">
                     <h5 class="card-title" id="player1-name">Kim</h5>
-                    <input type="text" id="player1" placeholder="Username" aria-label="Username"
-                        aria-describedby="basic-addon1">
+                    <input type="text" id="player1" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
-                <button id= "rock">Rock</button>
-                <button id= "paper">Paper</button>
-                <button id= "scissors">Scissors</button>
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
 
 
 
@@ -46,13 +50,12 @@
 
                 <img class="card-img-top" src="assets/images/secondplayer.jpeg" alt="second player" height="160" width="120">
                 <div class="card-body">
-                    <h5 class="card-title" id ="player2-name">Nate</h5>
-                    <input type="text" id="player2" placeholder="Username" aria-label="Username"
-                        aria-describedby="basic-addon1">
+                    <h5 class="card-title" id="player2-name">Nate</h5>
+                    <input type="text" id="player2" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
-                <button id= "rock">Rock</button>
-                <button id= "paper">Paper</button>
-                <button id= "scissors">Scissors</button>
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
             </div>
 
         </div>
@@ -62,8 +65,6 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
-    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"

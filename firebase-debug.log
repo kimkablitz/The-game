@@ -1,0 +1,24 @@
+[debug] [2018-09-25T22:58:17.196Z] ----------------------------------------------------------------------
+[debug] [2018-09-25T22:58:17.198Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-09-25T22:58:17.198Z] CLI Version:   4.2.1
+[debug] [2018-09-25T22:58:17.198Z] Platform:      darwin
+[debug] [2018-09-25T22:58:17.198Z] Node Version:  v10.4.0
+[debug] [2018-09-25T22:58:17.199Z] Time:          Tue Sep 25 2018 15:58:17 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-09-25T22:58:17.199Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-25T22:58:17.209Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-25T22:58:17.210Z] > authorizing via signed-in user
+[debug] [2018-09-25T22:58:17.212Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rpg-homework  
+ 
+[debug] [2018-09-25T22:58:17.630Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-25T22:58:17.632Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/rpg-homework  
+ 
+[debug] [2018-09-25T22:58:17.782Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/kimphung'...
+[info] 
+[debug] [2018-09-25T22:58:17.786Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/793152663298/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-25T22:58:17.940Z] <<< HTTP RESPONSE 200
+[info] i  hosting[rpg-homework]: Serving hosting files from: public
+[info] ✔  hosting[rpg-homework]: Local server: http://localhost:5000
